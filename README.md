@@ -48,7 +48,7 @@ ids, keys and counts, never a secret.
 
 ## Tests
 
-- `npm test`: create, reopen, import (native and bundle), clone, a replica
+- `brittle-bare test/*.test.js`: create, reopen, import (native and bundle), clone, a replica
   read lazily, events without secrets; and mycelium-git's contract suite
   on a p2p-mrepo repository (23 tests); a repository with its disk side
   (`test/local.test.js`).
