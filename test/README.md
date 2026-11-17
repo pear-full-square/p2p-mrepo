@@ -6,6 +6,8 @@ The tests of p2p-mrepo, a section per file, each test by its name.
 
 mycelium-git's contract suite on a repository on the p2p layer: the fixture imported into a p2p-mrepo repository, then the same tests as on every other engine (mycelium-git's `test/contract.js`).
 
+- its stores closed
+
 ## `local.test.js`
 
 A repository with its disk side (local): its atomic layers in the store, its non-atomic ones (request/*, execute/*) in `<local>/<name>/.git`, opened again with both.
