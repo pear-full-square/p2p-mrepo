@@ -7,9 +7,9 @@ Mycelium works with these repositories and knows nothing of p2p. A
 repository is created, imported, cloned or opened on a store; part of the
 p2p series.
 
-| | |
-|---|---|
-| [test/](test/) | its tests, what each checks |
+## Links
+
+- [test](test/)
 
 ## Usage
 
